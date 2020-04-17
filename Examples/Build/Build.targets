@@ -11,7 +11,7 @@ Build script
   <Import Project="..\..\Build\BuildCodebases.targets" />
 
   <ItemGroup>
-    <Solutions Include="..\HelloWorld\HelloWorld.sln" />
+    <!--<Solutions Include="..\HelloWorld\HelloWorld.sln" />-->
 	 <Solutions Include="..\numberGuesser\numberGuesser.sln"/>
     <!-- <PublishScripts Include="Publish.targets" /> -->
   </ItemGroup>

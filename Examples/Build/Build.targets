@@ -12,6 +12,7 @@ Build script
 
   <ItemGroup>
     <Solutions Include="..\HelloWorld\HelloWorld.sln" />
+	 <Solutions Include="..\numberGuesser\numberGuesser.sln"/>
     <!-- <PublishScripts Include="Publish.targets" /> -->
   </ItemGroup>
 </Project>

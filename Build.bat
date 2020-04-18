@@ -13,7 +13,7 @@ Rem 2. Build.Bat --incremental
 
 setlocal EnableDelayedExpansion
 echo Command called: %0 %*
-set SCRIPT_DIR=%~dp0
+set SCRIPT_DIR="installed sw\Jenkins\workspace\subbusample"
 cd /D %SCRIPT_DIR%
 set TARGETS_SCRIPT=%SCRIPT_DIR%Build.targets
 set CPU_COUNT=1

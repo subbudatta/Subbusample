@@ -14,7 +14,7 @@
 
   <!--Top level codebases to build-->
   <ItemGroup>
-    <BuildScripts Include="Examples\Build\Build.targets">
+    <BuildScripts Include="%WORKSPACE%\Examples\Build\Build.targets">
       <BuildOrder>0</BuildOrder>
     </BuildScripts>
   </ItemGroup>

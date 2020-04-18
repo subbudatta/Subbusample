@@ -10,11 +10,10 @@ Rem 1. Build.Bat --clean
 Rem 2. Build.Bat --full
 Rem		which does clean and then build.
 Rem 2. Build.Bat --incremental
-
 setlocal EnableDelayedExpansion
 echo Command called: %0 %*
-set SCRIPT_DIR="installed sw\Jenkins\workspace\subbusample"
-cd /D %SCRIPT_DIR%
+set SCRIPT_DIR=%~f1
+cd %SCRIPT_DIR%
 set TARGETS_SCRIPT=%SCRIPT_DIR%Build.targets
 set CPU_COUNT=1
 Rem TODO: Change the path to your VSinstallation path

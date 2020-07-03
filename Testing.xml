@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="0" runstate="Runnable" testcasecount="4" result="Passed" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="1" engine-version="3.11.1.0" clr-version="4.0.30319.42000" start-time="2020-05-29 07:58:09Z" end-time="2020-05-29 07:58:53Z" duration="43.584109">
+  <command-line><![CDATA["D:\Applications\nunit-console\nunit3-console.exe" D:\Views\Testing\Testing\bin\Debug\Testing.dll --result D:\DevopsTestResults\Testing.xml]]></command-line>
+  <test-suite type="Assembly" id="0-1005" name="Testing.dll" fullname="D:\Views\Testing\Testing\bin\Debug\Testing.dll" runstate="Runnable" testcasecount="4" result="Passed" start-time="2020-05-29 07:58:11Z" end-time="2020-05-29 07:58:53Z" duration="41.787837" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+    <environment framework-version="3.12.0.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.18363.0" platform="Win32NT" cwd="C:\WINDOWS\System32" machine-name="LAPTOP-0R7N4S8S" user="subra" user-domain="LAPTOP-0R7N4S8S" culture="en-IN" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="C:\WINDOWS\System32" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.6.1" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="RuntimeFramework" value="net-4.0" />
+      <setting name="NumberOfTestWorkers" value="8" />
+    </settings>
+    <properties>
+      <property name="_PID" value="17972" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <test-suite type="TestSuite" id="0-1006" name="Testing" fullname="Testing" runstate="Runnable" testcasecount="4" result="Passed" start-time="2020-05-29 07:58:11Z" end-time="2020-05-29 07:58:53Z" duration="41.757979" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+      <test-suite type="TestFixture" id="0-1000" name="Test" fullname="Testing.Test" classname="Testing.Test" runstate="Runnable" testcasecount="4" result="Passed" start-time="2020-05-29 07:58:11Z" end-time="2020-05-29 07:58:53Z" duration="41.749784" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+        <test-case id="0-1003" name="spacebuttoncredentials" fullname="Testing.Test.spacebuttoncredentials" methodname="spacebuttoncredentials" classname="Testing.Test" runstate="Runnable" seed="521184036" result="Passed" start-time="2020-05-29 07:58:11Z" end-time="2020-05-29 07:58:26Z" duration="14.388156" asserts="0">
+          <output><![CDATA[Userid or password could not be Empty.
+Browser window is closed
+]]></output>
+        </test-case>
+        <test-case id="0-1001" name="TestLogin" fullname="Testing.Test.TestLogin" methodname="TestLogin" classname="Testing.Test" runstate="Runnable" seed="785296984" result="Passed" start-time="2020-05-29 07:58:26Z" end-time="2020-05-29 07:58:34Z" duration="8.217270" asserts="0">
+          <output><![CDATA[successfull login
+Browser window is closed
+]]></output>
+        </test-case>
+        <test-case id="0-1002" name="wrongcredentials" fullname="Testing.Test.wrongcredentials" methodname="wrongcredentials" classname="Testing.Test" runstate="Runnable" seed="832631772" result="Passed" start-time="2020-05-29 07:58:34Z" end-time="2020-05-29 07:58:43Z" duration="9.231027" asserts="0">
+          <output><![CDATA[wrong credentials
+Browser window is closed
+]]></output>
+        </test-case>
+        <test-case id="0-1004" name="wrongcredentialsautomatic" fullname="Testing.Test.wrongcredentialsautomatic" methodname="wrongcredentialsautomatic" classname="Testing.Test" runstate="Runnable" seed="1181304199" result="Passed" start-time="2020-05-29 07:58:43Z" end-time="2020-05-29 07:58:53Z" duration="9.896955" asserts="1">
+          <output><![CDATA[wrong credentials
+Browser window is closed
+]]></output>
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
